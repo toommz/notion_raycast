@@ -1,0 +1,34 @@
+{
+  "name": "notion",
+  "title": "notion",
+  "description": "Add pages to a given Notion database",
+  "icon": "command-icon.png",
+  "author": "toommz",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "index",
+      "title": "Create Notion Page",
+      "subtitle": "",
+      "description": "Template to submit a form",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@notionhq/client": "^0.4.4",
+    "@raycast/api": "^1.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "~16.10.0",
+    "@types/react": "^17.0.28",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop"
+  }
+}
